@@ -1,0 +1,11 @@
+CONCLUSIONES Y HALLAZGOS DEL PROYECTO DE AUTOMATIZACIÓN - DEMOBLAZE
+
+1. SOBRE EL DESARROLLO
+----------------------
+- Se emplean buenas prácticas como la verificación de la visibilidad de elementos clave para asegurar que la página cargue correctamente.
+- El script interactúa con diferentes componentes de la web: selección de productos, navegación por el carrito, y llenado de formularios de compral.
+
+2. HALLAZGOS IMPORTANTES
+------------------------
+- El flujo automatizado valida la experiencia de compra de principio a fin, asegurando que los elementos esenciales (agregar productos, ver carrito, completar compra) funcionen correctamente.
+- La estructura del script es clara y puede ser extendida fácilmente para incluir más casos de prueba o validaciones adicionales.
