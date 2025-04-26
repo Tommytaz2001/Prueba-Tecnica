@@ -1,0 +1,17 @@
+CONCLUSIONES DE LAS PRUEBAS DE API - DEMOBLAZE
+
+1. Cobertura de Funcionalidades
+------------------------------
+- Se automatizaron exitosamente los casos principales de los servicios REST de DemoBlaze: registro y login de usuario.
+- La suite cubre tanto escenarios positivos (registro y login exitosos) como negativos (usuario duplicado y credenciales incorrectas).
+
+2. Buenas Prácticas
+-------------------
+- Se utiliza generación dinámica de usuarios para evitar colisiones en el registro y que despues de ciertas iteraciones de error.
+- Las pruebas capturan y muestran tanto las entradas como las salidas, demostrando en la terminal el resultado de cada iteración.
+- Se ingresaron puntos de excepcion para mostrar los mensajes de error o exito de cada iteración.
+
+3. Hallazgos
+------------
+- El endpoint de registro retorna un mensaje específico cuando el usuario ya existe, lo que permite validar fácilmente este caso.
+- El endpoint de login responde con diferentes códigos de estado y mensajes según la validez de las credenciales, permitiendo distinguir entre éxito y error.

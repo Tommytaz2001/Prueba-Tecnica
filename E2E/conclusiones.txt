@@ -7,5 +7,5 @@ CONCLUSIONES Y HALLAZGOS DEL PROYECTO DE AUTOMATIZACIÓN - DEMOBLAZE
 
 2. HALLAZGOS IMPORTANTES
 ------------------------
-- El flujo automatizado valida la experiencia de compra de principio a fin, asegurando que los elementos esenciales (agregar productos, ver carrito, completar compra) funcionen correctamente.
-- La estructura del script es clara y puede ser extendida fácilmente para incluir más casos de prueba o validaciones adicionales.
+- La prueba estuvo interesante mas que todo, por que tiene cierta similitud con otros softwares que utilizo como Katalon.
+- Al realizar estos test se puede mejorar la parte de guardar los botones en variables para no quemar estos en el codigo.
